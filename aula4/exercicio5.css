@@ -1,0 +1,10 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 60px;
+    margin: 20%;
+    background-color: beige;
+}
+
+h1, h2{
+    color: #e687d6;
+}
