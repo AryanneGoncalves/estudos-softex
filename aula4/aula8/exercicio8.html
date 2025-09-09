@@ -1,42 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="exercicio8.css">
-    <title>APRESENTAÇÃO PESSOAL</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="exercicio8.css">
+  <title>Apresentação Pessoal</title>
 </head>
 <body>
-    <h1>OLÁ A TODOS</h1>
-    <h2>Meu nome é Aryanne, tenho 23 anos e estou estudante de TI</h2>
-    <h3>Minha cor favorita é <span>lilás </span>, meu série favorita é Supernatural <br><br> <img src="https://upload.wikimedia.org/wikipedia/pt/d/d3/Supernatural_temporada_10_Poster.png" alt=""><br><br>
+  <header>
+    <h1>Olá a todos 👋</h1>
+    <h2>Meu nome é Aryanne, tenho 23 anos e sou estudante de TI</h2>
+    <img class="perfil" src="https://m.media-amazon.com/images/M/MV5BYzYxOTlkYzctNGY2MC00MjNjLWIxOWMtY2QwYjcxZWIwMmEwXkEyXkFqcGc@._V1_.jpg" alt="Foto de perfil">
+  </header>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet vel beatae animi tenetur necessitatibus <br> ullam eum suscipit! Illum molestias id nemo dolorem corrupti assumenda voluptatum est. Quos corrupti aliquid illum. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Nam sed vitae consectetur est porro beatae deserunt, <br> odio optio voluptates itaque veniam pariatur aspernatur eaque aut veritatis architecto, minima eveniet rerum?
-    </p> 
+  <main>
+    <section>
+      <h3>Sobre mim</h3>
+      <p>
+        Minha cor favorita é <span class="cor-favorita">lilás</span>, minha série favorita é Supernatural.
+      </p>
+      <img class="serie" src="https://upload.wikimedia.org/wikipedia/pt/d/d3/Supernatural_temporada_10_Poster.png" alt="Poster Supernatural">
+    </section>
 
-
-    <h3>as minhas lista de hobbies são:</h3>
-    <ul>
+    <section>
+      <h3>Meus hobbies</h3>
+      <ul>
         <li>Ler livros de época</li>
-        <li>Fazer Crochê</li>
+        <li>Fazer crochê</li>
         <li>Escutar reggae</li>
-        <li>Ir a praia</li>
+        <li>Ir à praia</li>
         <li>Aprender um novo idioma</li>
-    </ul>
-    <hr>
+      </ul>
+    </section>
 
-    <div class="formulario">
-        <h2>FORMULARIO</h2>  
-
-     <input type="Nome Completo" id="numeroInput" placeholder="Nome Completo"><br><br>
-     <input type="Data de Nascimento" id="numeroInput" placeholder="Data de Nascimento"><br><br>
-     <input type="Endereço" id="numeroInput" placeholder="GMAIL"><br><br>
-     <input type="" id="numeroInput" placeholder="Endereço"><br><br>
-     <button>ENVIAR</button> <BR></BR>
-    
-    </div>
-      
-
-
+    <section class="formulario">
+      <h3>Entre em contato</h3>
+      <form>
+        <input type="text" placeholder="Nome Completo" required><br><br>
+        <input type="email" placeholder="E-mail" required><br><br>
+        <textarea placeholder="Escreva sua mensagem..."></textarea><br><br>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
 </body>
 </html>
